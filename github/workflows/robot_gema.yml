@@ -1,12 +1,12 @@
 name: GEMA-OPERASI-CUAN-V1
 on: [push, workflow_dispatch]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 jobs:
   eksekusi_intelijen:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-      
     steps:
       - name: "1. Mengambil Markas Pusat"
         uses: actions/checkout@v4
@@ -20,8 +20,7 @@ jobs:
         run: |
           echo "========================================="
           echo "LAPOR BOSS ALDI RAFA!"
-          echo "SISTEM PT GEMA (NIB: 0220109101856-GEMA) AMAN."
-          echo "MIMIN AKTIF 24 JAM DI SERVER GITHUB!"
+          echo "SISTEM PT GEMA AMAN DAN SADAR!"
           echo "========================================="
           python otak_gema_ai.py
           python gema_chip_supremasi.py
