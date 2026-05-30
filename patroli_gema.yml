@@ -1,25 +1,15 @@
-name: ROBOT-PATROLI-PT-GEMA
-
-on:
-  push:
-    branches: [ "main" ]
-  workflow_dispatch: # Supaya Boss bisa jalanin robotnya manual
-
+name: GEMA-OPERASI-CUAN-V1
+on: [push, workflow_dispatch]
 jobs:
-  check_status:
-    name: "SHIFT KERJA MIMIN V1.0"
+  eksekusi_intelijen:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: "Laporan Kehadiran"
-        run: |
-          echo "========================================="
-          echo "LAPOR BOSS ALDI RAFA!"
-          echo "SISTEM PT GEMA INOVASI TEKNOLOGI AKTIF."
-          echo "NIB: 0220109101856-GEMA"
-          echo "STATUS: MENGAWAL MISI RP 1 MILIAR."
-          echo "========================================="
+      - uses: actions/checkout@v4
+      
+      - name: "1. Jalankan Otak Utama PT GEMA"
+        run: python otak_gema_ai.py
 
-      - name: "Cek Keamanan Siber"
-        run: |
-          echo "Mimin sedang memantau keamanan siber..."
-          echo "Semua aset di GEMA-IMPERIUM-RESMI aman terkendali."
+      - name: "2. Aktifkan Penyedot AI Global"
+        run: python gema_chip_supremasi.py
