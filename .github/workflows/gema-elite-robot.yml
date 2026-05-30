@@ -1,13 +1,12 @@
-name: GEMA-ELITE-ROBOT
+name: GEMA-OPERASI-CUAN-V1
 on: [push, workflow_dispatch]
 jobs:
-  lapor:
+  eksekusi_intelijen:
     runs-on: ubuntu-latest
     steps:
-      - name: "Sidak CEO"
-        run: |
-          echo "========================================="
-          echo "LAPOR BOSS ALDI RAFA! SISTEM ONLINE!"
-          echo "PT GEMA INOVASI TEKNOLOGI (NIB: 0220109101856-GEMA)"
-          echo "ROBOT INI RESMI MENGHANCURKAN TEMPLATE!"
-          echo "========================================="
+      - name: "Ambil Kode PT GEMA"
+        uses: actions/checkout@v4
+
+      - name: "Jalankan Otak Pencari Cuan"
+        run: python otak_gema_ai.py
+
