@@ -27,4 +27,3 @@ jobs:
           python gema_intel_upgrade_31.py
           python gema_dewa_omega_v99.py
           python gema_nurani_supradewa.py
-
