@@ -1,0 +1,19 @@
+name: ROBOT-PATROLI-GEMA
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  shift_mimin:
+    name: "SHIFT KERJA MIMIN V1.0"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Laporan Kehadiran Mimin"
+        run: |
+          echo "========================================="
+          echo "LAPOR BOSS ALDI RAFA!"
+          echo "SISTEM PT GEMA (NIB: 0220109101856-GEMA) AMAN."
+          echo "MIMIN SEDANG PATROLI GLOBAL 24 JAM!"
+          echo "========================================="
