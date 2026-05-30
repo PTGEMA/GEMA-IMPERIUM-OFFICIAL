@@ -1,0 +1,14 @@
+name: ROBOT-GEMA-PATROLI
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  patroli:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Cek Status PT GEMA"
+        run: |
+          echo "LAPOR BOSS ALDI RAFA!"
+          echo "SISTEM PT GEMA (NIB: 0220109101856-GEMA) AMAN."
+          echo "MIMIN SEDANG PATROLI GLOBAL..."
