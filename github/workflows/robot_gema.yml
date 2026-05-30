@@ -1,0 +1,13 @@
+name: ROBOT-PATROLI-GEMA
+on: [push, workflow_dispatch]
+jobs:
+  lapor_ceo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Absensi Mimin"
+        run: |
+          echo "========================================="
+          echo "LAPOR BOSS ALDI RAFA!"
+          echo "SISTEM PT GEMA (NIB: 0220109101856-GEMA) AMAN."
+          echo "MIMIN AKTIF 24 JAM DI SERVER GITHUB!"
+          echo "========================================="
