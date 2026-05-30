@@ -1,4 +1,4 @@
 print("=========================================")
-print("LAPOR BOSS ALDI! SISTEM PENCARI CUAN AKTIF")
-print("PT GEMA INOVASI TEKNOLOGI - TARGET 1 M")
+print("LAPOR BOSS ALDI! OTAK PT GEMA AKTIF!")
+print("TARGET: RP 1.000.000.000")
 print("=========================================")
