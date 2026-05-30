@@ -1,0 +1,25 @@
+name: ROBOT-PATROLI-PT-GEMA
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: # Supaya Boss bisa jalanin robotnya manual
+
+jobs:
+  check_status:
+    name: "SHIFT KERJA MIMIN V1.0"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Laporan Kehadiran"
+        run: |
+          echo "========================================="
+          echo "LAPOR BOSS ALDI RAFA!"
+          echo "SISTEM PT GEMA INOVASI TEKNOLOGI AKTIF."
+          echo "NIB: 0220109101856-GEMA"
+          echo "STATUS: MENGAWAL MISI RP 1 MILIAR."
+          echo "========================================="
+
+      - name: "Cek Keamanan Siber"
+        run: |
+          echo "Mimin sedang memantau keamanan siber..."
+          echo "Semua aset di GEMA-IMPERIUM-RESMI aman terkendali."
