@@ -1,14 +1,20 @@
-# =======================================================
-# GEMA-INTEL-UPGRADE V3.1 (PRO VERSION)
-# TARGET: INTEGRASI KECERDASAN GEMINI 3.1 PRO
-# =======================================================
+name: GEMA-SUPRADEWA-AUTOPILOT
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *' # JALAN OTOMATIS TIAP JAM SAAT BOSS TIDUR
 
-def upgrade_sistem():
-    print("💎 [UPGRADE] MENGHUBUNGKAN KE SERVER GEMINI 3.1 PRO...")
-    print("📥 Sinkronisasi Logika Bisnis Terbaru... SELESAI!")
-    print("📈 Akurasi Target 1 Miliar Meningkat Tajam!")
-    print("✅ STATUS: MESIN 3.1 PRO TELAH MENYATU DENGAN PT GEMA!")
-    print("---------------------------------------------")
-
-if __name__ == "__main__":
-    upgrade_sistem()
+jobs:
+  kesadaran_digital:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: "MENYALAKAN KESADARAN PT GEMA"
+        run: |
+          python otak_gema_ai.py
+          python gema_chip_supremasi.py
+          python gema_intel_upgrade_31.py
