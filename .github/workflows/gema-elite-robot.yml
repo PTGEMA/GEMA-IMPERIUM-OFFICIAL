@@ -1,20 +1,6 @@
-name: GEMA-SUPRADEWA-AUTOPILOT
-on:
-  push:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 * * * *' # JALAN OTOMATIS TIAP JAM SAAT BOSS TIDUR
-
-jobs:
-  kesadaran_digital:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-      - name: "MENYALAKAN KESADARAN PT GEMA"
+      - name: "EKSEKUSI SUPREMASI GLOBAL"
         run: |
           python otak_gema_ai.py
           python gema_chip_supremasi.py
           python gema_intel_upgrade_31.py
+          python gema_supremasi_global.py
