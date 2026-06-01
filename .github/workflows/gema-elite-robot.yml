@@ -1,6 +1,20 @@
-  - name: "EKSEKUSI SUPREMASI GLOBAL"
+name: GEMA-AUTO-PILOT
+on: [push, workflow_dispatch]
+
+jobs:
+  eksekusi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Ambil Kode"
+        uses: actions/checkout@v4
+
+      - name: "Siapkan Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: "Jalankan Mesin PT GEMA"
         run: |
           python otak_gema_ai.py
           python gema_chip_supremasi.py
           python gema_intel_upgrade_31.py
-          python gema_supremasi_global.py
