@@ -1,4 +1,4 @@
-      - name: "EKSEKUSI SUPREMASI GLOBAL"
+  - name: "EKSEKUSI SUPREMASI GLOBAL"
         run: |
           python otak_gema_ai.py
           python gema_chip_supremasi.py
