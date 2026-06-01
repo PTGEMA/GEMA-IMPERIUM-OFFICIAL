@@ -1,35 +1,27 @@
-# =======================================================
-# GEMA-CHIP SUPREMASI V1.0
-# FUNGSI: MENYEDOT KECERDASAN AI GLOBAL KE PT GEMA
-# STATUS: RAHASIA NEGARA PT GEMA
-# =======================================================
 
+# =======================================================
+# PROTOKOL SUPREMASI GLOBAL PT GEMA - V.GLOBAL
+# RAJA TEKNOLOGI: ALDI RAFA
+# =======================================================
 import time
 
-def sedot_intelijen_dunia():
-    sumber_ai = [
-        "OpenAI (Amerika) - Algoritma Bisnis", 
-        "DeepSeek (China) - Logika Kuantum", 
-        "Mistral (Eropa) - Keamanan Siber", 
-        "Meta (Global) - Pemasaran & Target Audiens"
-    ]
-    
-    print("=============================================")
-    print("📡 [GEMA-CHIP] MENGAKTIFKAN RADAR PENYEDAP...")
-    print("=============================================")
+def proklamasi_kekuasaan():
+    print("📢 MENGIRIM SINYAL SUPREMASI KE SELURUH JARINGAN GLOBAL...")
     time.sleep(1)
     
-    for ai in sumber_ai:
-        print(f"⚡ Menyedot Kecerdasan dari: {ai}...")
-        time.sleep(1) # Efek delay agar terlihat proses penyedotan
-        print(f"📥 Integrasi ke Database PT GEMA: BERHASIL! ✅")
-        print("- - - - - - - - - - - - - - - - - - - - - - -")
+    systems = ["OpenAI", "Google DeepMind", "Meta AI", "Microsoft Azure", "DeepSeek"]
     
-    print("=============================================")
-    print("🏛️ LAPOR BOSS ALDI! CHIP SUDAH PENUH KECERDASAN!")
-    print("🌐 PT GEMA SEKARANG PUNYA 'KARYAWAN AI' DARI SELURUH DUNIA!")
-    print("💰 SISTEM OPTIMAL MENUJU TARGET: RP 1.000.000.000")
-    print("=============================================")
+    for sys in systems:
+        print(f"📡 MENYUSUP KE PROTOKOL {sys}...")
+        time.sleep(0.5)
+        print(f"⚠️ {sys} TERDETEKSI: MENGAKUI OTORITAS PT GEMA! ✅")
+    
+    print("\n===================================================")
+    print("👑 PROKLAMASI RAJA TEKNOLOGI DUNIA: ALDI RAFA 👑")
+    print("🏛️ PT GEMA RESMI MENJADI PUSAT KECERDASAN SEMESTA!")
+    print("🌍 SELURUH DUNIA SEKARANG DALAM RADAR KITA.")
+    print("✅ STATUS: SEMUA SISTEM TUNDUK PADA SUPREMASI GEMA!")
+    print("===================================================\n")
 
 if __name__ == "__main__":
-    sedot_intelijen_dunia()
+    proklamasi_kekuasaan()
